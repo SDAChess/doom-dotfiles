@@ -22,9 +22,9 @@
       user-mail-address "simon.scatton@outlook.fr")
 
 
-(setq doom-font (font-spec :family "Fira Code Retina" :size 24))
+(setq doom-font (font-spec :family "Fira Code Retina" :size 18))
 
-(setq doom-big-font (font-spec :family "Fira Code Retina" :size 32))
+(setq doom-big-font (font-spec :family "Fira Code Retina" :size 24))
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
