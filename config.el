@@ -21,10 +21,12 @@
 (setq user-full-name "Simon Scatton"
       user-mail-address "simon.scatton@outlook.fr")
 
-
 (setq doom-font (font-spec :family "Fira Code Retina" :size 18))
 
 (setq doom-big-font (font-spec :family "Fira Code Retina" :size 24))
+
+(add-hook 'org-mode-hook '(lambda () (setq fill-column 80)))
+(add-hook 'org-mode-hook 'turn-on-auto-fill)
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
